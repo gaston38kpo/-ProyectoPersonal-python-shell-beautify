@@ -5,10 +5,10 @@ example:
 
 import shell_colors as c
 
-option 1 f-string:
+option 1 f-string:\n
 print(f"{c.red}Hello{c.end} {c.blue}World!{c.end}")
 
-option 2 string format:
+option 2 string format:\n
 print("{}Hello{} {}World!{}".format(c.red, c.end, c.blue, c.end))
 
 option 3 concat:
