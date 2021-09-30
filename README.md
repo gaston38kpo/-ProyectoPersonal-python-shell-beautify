@@ -1,7 +1,7 @@
 # python-shell-beautify
 Colors and text formats for console using python
 
-_Example Usage:
+_Usage Example:_
 
 * import shell_colors as c
 
