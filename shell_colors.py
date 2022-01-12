@@ -1,8 +1,13 @@
+'''
+Creator: Gaston Giacobini
+GitHub: gaston38kpo
+Date: 30/09/2021
+'''
 ###############################################################################
 ############################### Aditional #####################################
 ###############################################################################
 
-end = '\033[0m'       # Text reset (Important!)
+end = '\033[0m'       # Reset text style (Important!)
 
 bold = '\033[01m'      # Bold text
 disable = '\033[02m'    # Disable..?
@@ -10,7 +15,7 @@ italic = '\033[03m'   # Italic text
 underline = '\033[04m'  # Underline text
 blink = '\033[05m'    # Blink text
 blinkFast = '\033[06m'  # Blink fast text
-reverse = '\033[07m'    # Reverse colors
+reverse = '\033[07m'    # Inverted colors
 occult = '\033[08m'  # Occult text
 strikethrough = '\033[09m'  # Strikethrough text
 
@@ -101,7 +106,7 @@ hi_cyan_u = '\033[4;96m'
 hi_white_u = '\033[4;97m'
 
 ###############################################################################
-################################# Background ##################################
+################################# Backgrounds #################################
 ###############################################################################
 
 bg_black = '\033[40m'
