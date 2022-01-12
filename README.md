@@ -1,19 +1,29 @@
 # python-shell-beautify
-Colors and text formats for console using python
+**Colors and text formats for console using python**
 
+* Import first:
+```python
+import shell_colors as c
+```
 _Usage Example:_
 
-* import shell_colors as c
+* Option 1 f-string:
+```python
+print(f"{c.red}Hello{c.end} {c.blue}World!{c.end}") 
+```
 
-option 1 f-string:
-* print(f"{c.red}Hello{c.end} {c.blue}World!{c.end}")
+* Option 2 string format:
+```python
+print("{}Hello{} {}World!{}".format(c.red, c.end, c.blue, c.end))
+```
 
-option 2 string format:
-* print("{}Hello{} {}World!{}".format(c.red, c.end, c.blue, c.end))
+* Option 3 concat:
+```python
+print(c.red + "Hello" + c.end + " " + c.blue + "World!" + c.end) 
+```
 
-option 3 concat:
-* print(c.red + "Hello" + c.end + " " + c.blue + "World!" + c.end)
-
-option... 4? 👀:
-* print(c.red , "Hello" , c.end , c.blue , "World!" , c.end)
+* Option... 4? 👀:
+```python
+print(c.red , "Hello" , c.end , c.blue , "World!" , c.end) 
+```
 
